@@ -27,7 +27,8 @@ int main() {
 	return 0;
 }
 char* serialize(node* root);
-node* deserialize(char* str);
+node* deserialize(char* str) {
+}
 void setNodeVal(node* n, char* val) {
 	n->val = malloc(strlen(val) + 1);
 	strcpy(n->val, val);
